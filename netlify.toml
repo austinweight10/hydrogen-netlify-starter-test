@@ -1,5 +1,0 @@
-[build]
-publish = "dist/client"
-
-[dev]
-framework = "#static"
