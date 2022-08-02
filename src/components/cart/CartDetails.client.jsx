@@ -27,6 +27,8 @@ export function CartDetails({layout, onClose}) {
 
 
   useEffect(() => {
+    // eslint-disable-next-line prettier/prettier
+    console.log(eventNames.PAGE_VIEW, 'PAGE_VIEW')
     ClientAnalytics.publish(eventNames.PAGE_VIEW, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
