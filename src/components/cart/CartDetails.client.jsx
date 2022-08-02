@@ -34,6 +34,10 @@ export function CartDetails({layout, onClose}) {
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
+        url: 'test',
+        path: 'asdsadasdas',
+        search: '/asdasd',
+        referrer: 'adsadsadsadsads',
     });
     ClientAnalytics.publish(eventNames.VIEWED_PRODUCT, {
       // eslint-disable-next-line prettier/prettier
