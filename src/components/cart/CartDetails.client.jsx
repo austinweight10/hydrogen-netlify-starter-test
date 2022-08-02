@@ -5,14 +5,73 @@ import {
   CartLineProvider,
   CartShopPayButton,
   Money,
+  ClientAnalytics,
 } from '@shopify/hydrogen';
 
 import {Button, Text, CartLineItem, CartEmpty} from '~/components';
+
+export const eventNames = {
+  PAGE_VIEW: 'page-view',
+  VIEWED_PRODUCT: 'viewed-product',
+  ADD_TO_CART: 'add-to-cart',
+  REMOVE_FROM_CART: 'remove-from-cart',
+  UPDATE_CART: 'update-cart',
+  DISCOUNT_CODE_UPDATED: 'discount-code-updated',
+  PERFORMANCE: 'performance'
+}
 
 export function CartDetails({layout, onClose}) {
   const {lines} = useCart();
   const scrollRef = useRef(null);
   const {y} = useScroll(scrollRef);
+
+
+  useEffect(() => {
+    ClientAnalytics.publish(eventNames.PAGE_VIEW, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.VIEWED_PRODUCT, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.ADD_TO_CART, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.REMOVE_FROM_CART, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.UPDATE_CART, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.DISCOUNT_CODE_UPDATED, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+    ClientAnalytics.publish(eventNames.PERFORMANCE, {
+      // eslint-disable-next-line prettier/prettier
+        testData: "this is a test",
+        // eslint-disable-next-line prettier/prettier
+        creative_slot: "featured_app_1",
+    })
+  })
+
+
 
   if (lines.length === 0) {
     return <CartEmpty onClose={onClose} />;
