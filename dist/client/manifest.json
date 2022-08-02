@@ -1,11 +1,20 @@
 {
   "index.html": {
-    "file": "assets/index.6189f3cc.js",
+    "file": "assets/index.fcab2dec.js",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
       "src/components/CountrySelector.client.jsx",
       "src/components/CustomFont.client.jsx",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetrics.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetricsDebug.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_c96332aa.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationClientProvider.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/AnalyticsErrorBoundary.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/Shopify/ShopifyAnalytics.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
       "src/components/account/AccountActivateForm.client.jsx",
       "src/components/account/AccountAddressBook.client.jsx",
       "src/components/account/AccountCreateForm.client.jsx",
@@ -15,31 +24,22 @@
       "src/components/account/AccountPasswordResetForm.client.jsx",
       "src/components/account/AccountRecoverForm.client.jsx",
       "src/components/cards/ProductCard.client.jsx",
-      "_916fc4f8.js",
-      "src/components/elements/LogoutButton.client.jsx",
+      "_e6277090.js",
       "src/components/global/FooterMenu.client.jsx",
       "src/components/global/Header.client.jsx",
       "src/components/product/ProductForm.client.jsx",
       "src/components/product/ProductGallery.client.jsx",
       "src/components/product/ProductGrid.client.jsx",
       "src/components/product/ProductDetail.client.jsx",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetrics.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetricsDebug.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_d918c967.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationClientProvider.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/AnalyticsErrorBoundary.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/Shopify/ShopifyAnalytics.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "src/components/elements/LogoutButton.client.jsx",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/Redirect/Redirect.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/Analytics.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/DevTools.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_66b8d4b6.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js",
+      "_4ff67a61.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/CartProvider/CartProvider.client.js",
-      "_737d4b55.js",
+      "_1d3221b6.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/ProductOptionsProvider/ProductOptionsProvider.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js",
@@ -52,176 +52,176 @@
     ]
   },
   "src/components/CountrySelector.client.jsx": {
-    "file": "assets/ab425c90.js",
+    "file": "assets/75bd5385.js",
     "src": "src/components/CountrySelector.client.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
       "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
+      "_a3fdab35.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "_ee25ea7a.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "_7940f5e2.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_ae107274.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "_f8f467d1.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
+      "_c5fd8ade.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "_e72b705a.js",
+      "_4dcec775.js",
+      "_b453c200.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_a69c1f44.js"
+      "_8edfef86.js"
     ],
     "css": [
       "assets/custom-font.05d48841.css"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js": {
-    "file": "assets/6de4b88c.js",
+    "file": "assets/dabb404c.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_d918c967.js",
-      "_83ddd54b.js",
+      "_c96332aa.js",
+      "_4dcec775.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_204a9453.js"
+      "_b453c200.js"
     ]
   },
-  "_951108c3.js": {
-    "file": "assets/951108c3.js",
+  "_a3fdab35.js": {
+    "file": "assets/a3fdab35.js",
     "imports": [
       "index.html"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js": {
-    "file": "assets/39240f87.js",
+    "file": "assets/42bd6d0f.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
   },
-  "_d918c967.js": {
-    "file": "assets/d918c967.js",
+  "_c96332aa.js": {
+    "file": "assets/c96332aa.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_204a9453.js"
+      "_b453c200.js"
     ]
   },
-  "_247fa190.js": {
-    "file": "assets/247fa190.js",
+  "_979bc475.js": {
+    "file": "assets/979bc475.js",
     "imports": [
       "index.html"
     ]
   },
-  "_ee25ea7a.js": {
-    "file": "assets/ee25ea7a.js",
+  "_7940f5e2.js": {
+    "file": "assets/7940f5e2.js",
     "imports": [
       "index.html",
       "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_204a9453.js"
+      "_b453c200.js"
     ]
   },
-  "_d9f18c74.js": {
-    "file": "assets/d9f18c74.js",
+  "_4713b2c7.js": {
+    "file": "assets/4713b2c7.js",
     "imports": [
       "index.html"
     ]
   },
-  "_11e343ea.js": {
-    "file": "assets/11e343ea.js",
+  "_adcb9f3b.js": {
+    "file": "assets/adcb9f3b.js",
     "imports": [
       "index.html",
-      "_204a9453.js"
+      "_b453c200.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js": {
-    "file": "assets/74769fe0.js",
+    "file": "assets/16a2d653.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
   },
-  "_ae107274.js": {
-    "file": "assets/ae107274.js",
+  "_c5fd8ade.js": {
+    "file": "assets/c5fd8ade.js",
     "imports": [
       "index.html"
     ]
   },
-  "_de1940ea.js": {
-    "file": "assets/de1940ea.js",
+  "_2d42f978.js": {
+    "file": "assets/2d42f978.js",
     "imports": [
       "index.html",
       "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
+      "_a3fdab35.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
+      "_c96332aa.js",
+      "_979bc475.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_40447271.js"
+      "_199713ed.js"
     ],
     "css": [
       "assets/custom-font.05d48841.css"
     ]
   },
-  "_40447271.js": {
-    "file": "assets/40447271.js",
+  "_199713ed.js": {
+    "file": "assets/199713ed.js",
     "imports": [
       "index.html",
       "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
+      "_a3fdab35.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
+      "_c96332aa.js",
+      "_979bc475.js",
       "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js"
     ]
   },
-  "_f8f467d1.js": {
-    "file": "assets/f8f467d1.js",
+  "_e72b705a.js": {
+    "file": "assets/e72b705a.js",
     "imports": [
       "index.html",
-      "_de1940ea.js",
-      "_a69c1f44.js"
+      "_2d42f978.js",
+      "_8edfef86.js"
     ]
   },
-  "_83ddd54b.js": {
-    "file": "assets/83ddd54b.js",
+  "_4dcec775.js": {
+    "file": "assets/4dcec775.js",
     "imports": [
-      "_d918c967.js",
+      "_c96332aa.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js"
     ]
   },
-  "_204a9453.js": {
-    "file": "assets/204a9453.js",
+  "_b453c200.js": {
+    "file": "assets/b453c200.js",
     "imports": [
       "index.html"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js": {
-    "file": "assets/0963bb9b.js",
+    "file": "assets/f36cacbb.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
   },
-  "_a69c1f44.js": {
-    "file": "assets/a69c1f44.js",
+  "_8edfef86.js": {
+    "file": "assets/8edfef86.js",
     "imports": [
       "index.html",
-      "_de1940ea.js"
+      "_2d42f978.js"
     ]
   },
   "src/components/CustomFont.client.jsx": {
@@ -232,605 +232,30 @@
       "assets/custom-font.05d48841.css"
     ]
   },
-  "src/components/account/AccountActivateForm.client.jsx": {
-    "file": "assets/1ca2a35f.js",
-    "src": "src/components/account/AccountActivateForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_83ddd54b.js",
-      "_204a9453.js"
-    ]
-  },
-  "src/components/account/AccountAddressBook.client.jsx": {
-    "file": "assets/23ad5bf4.js",
-    "src": "src/components/account/AccountAddressBook.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_44037397.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_de1940ea.js",
-      "_6ffda1c9.js",
-      "_83ddd54b.js",
-      "_204a9453.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_44037397.js": {
-    "file": "assets/44037397.js",
-    "imports": [
-      "_de1940ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_40447271.js"
-    ]
-  },
-  "_6ffda1c9.js": {
-    "file": "assets/6ffda1c9.js",
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_de1940ea.js",
-      "_40447271.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_4d9ccbe2.js": {
-    "file": "assets/4d9ccbe2.js",
-    "imports": [
-      "_de1940ea.js",
-      "_40447271.js",
-      "index.html"
-    ]
-  },
-  "src/components/account/AccountCreateForm.client.jsx": {
-    "file": "assets/0f74f24d.js",
-    "src": "src/components/account/AccountCreateForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_83ddd54b.js",
-      "_40447271.js",
-      "src/components/account/AccountLoginForm.client.jsx",
-      "_204a9453.js"
-    ]
-  },
-  "src/components/account/AccountLoginForm.client.jsx": {
-    "file": "assets/b941188e.js",
-    "src": "src/components/account/AccountLoginForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_83ddd54b.js",
-      "_204a9453.js"
-    ]
-  },
-  "src/components/account/AccountDetails.client.jsx": {
-    "file": "assets/9e94e35c.js",
-    "src": "src/components/account/AccountDetails.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_40447271.js",
-      "_44037397.js",
-      "_4d9ccbe2.js",
-      "_de1940ea.js",
-      "_6ffda1c9.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_f4dc0eb8.js",
-      "_ee25ea7a.js",
-      "_92add5bc.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js": {
-    "file": "assets/455bb384.js",
-    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_f4dc0eb8.js",
-      "_11e343ea.js",
-      "_ee25ea7a.js",
-      "_92add5bc.js",
-      "_d918c967.js",
-      "_204a9453.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js"
-    ]
-  },
-  "_f4dc0eb8.js": {
-    "file": "assets/f4dc0eb8.js",
-    "imports": [
-      "index.html",
-      "_d918c967.js"
-    ]
-  },
-  "_92add5bc.js": {
-    "file": "assets/92add5bc.js"
-  },
-  "src/components/account/AccountOrderHistory.client.jsx": {
-    "file": "assets/e5972d13.js",
-    "src": "src/components/account/AccountOrderHistory.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_44037397.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_bca3d137.js",
-      "_92add5bc.js",
-      "_de1940ea.js",
-      "_83ddd54b.js",
-      "_204a9453.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_bca3d137.js": {
-    "file": "assets/bca3d137.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/components/account/AccountPasswordResetForm.client.jsx": {
-    "file": "assets/d5829a03.js",
-    "src": "src/components/account/AccountPasswordResetForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_83ddd54b.js",
-      "_204a9453.js"
-    ]
-  },
-  "src/components/account/AccountRecoverForm.client.jsx": {
-    "file": "assets/78ecee53.js",
-    "src": "src/components/account/AccountRecoverForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_40447271.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_d918c967.js",
-      "_204a9453.js",
-      "_83ddd54b.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js"
-    ]
-  },
-  "src/components/cards/ProductCard.client.jsx": {
-    "file": "assets/dad5aa60.js",
-    "src": "src/components/cards/ProductCard.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_de1940ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_bca3d137.js",
-      "_92add5bc.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "_66b8d4b6.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_ee25ea7a.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_66b8d4b6.js": {
-    "file": "assets/66b8d4b6.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_247fa190.js",
-      "_ee25ea7a.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js"
-    ]
-  },
-  "_916fc4f8.js": {
-    "file": "assets/916fc4f8.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_082980fa.js",
-      "_247fa190.js",
-      "_66b8d4b6.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_44037397.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_ae107274.js",
-      "_de1940ea.js",
-      "src/components/cards/ProductCard.client.jsx",
-      "_bca3d137.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_082980fa.js": {
-    "file": "assets/082980fa.js",
-    "imports": [
-      "index.html",
-      "_951108c3.js",
-      "_555f9022.js",
-      "_b0814017.js"
-    ]
-  },
-  "_555f9022.js": {
-    "file": "assets/555f9022.js",
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_204a9453.js"
-    ]
-  },
-  "_b0814017.js": {
-    "file": "assets/b0814017.js",
-    "imports": [
-      "_1986dff3.js",
-      "index.html"
-    ]
-  },
-  "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js": {
-    "file": "assets/78d6f5a2.js",
-    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_1986dff3.js": {
-    "file": "assets/1986dff3.js"
-  },
-  "src/components/elements/LogoutButton.client.jsx": {
-    "file": "assets/ac8a3651.js",
-    "src": "src/components/elements/LogoutButton.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/components/global/FooterMenu.client.jsx": {
-    "file": "assets/855b0b24.js",
-    "src": "src/components/global/FooterMenu.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "_12a77e9c.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_a69c1f44.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "_12a77e9c.js": {
-    "file": "assets/12a77e9c.js",
-    "imports": [
-      "index.html",
-      "_de1940ea.js",
-      "_a69c1f44.js"
-    ]
-  },
-  "src/components/global/Header.client.jsx": {
-    "file": "assets/e4f38da2.js",
-    "src": "src/components/global/Header.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_f4dc0eb8.js",
-      "_082980fa.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_d918c967.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "_916fc4f8.js",
-      "_4d9ccbe2.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_555f9022.js",
-      "_b0814017.js",
-      "_1986dff3.js",
-      "_66b8d4b6.js",
-      "_ee25ea7a.js",
-      "_44037397.js",
-      "_ae107274.js",
-      "src/components/cards/ProductCard.client.jsx",
-      "_bca3d137.js",
-      "_92add5bc.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "src/components/product/ProductForm.client.jsx": {
-    "file": "assets/89cfb3a4.js",
-    "src": "src/components/product/ProductForm.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_082980fa.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js",
-      "_66b8d4b6.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_f4dc0eb8.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_44037397.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_f8f467d1.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_555f9022.js",
-      "_b0814017.js",
-      "_1986dff3.js",
-      "_ee25ea7a.js",
-      "_a69c1f44.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js": {
-    "file": "assets/e1cff8fe.js",
-    "src": "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_247fa190.js"
-    ]
-  },
-  "src/components/product/ProductGallery.client.jsx": {
-    "file": "assets/e44a4733.js",
-    "src": "src/components/product/ProductGallery.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_bca3d137.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_96676335.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_b0814017.js",
-      "_1986dff3.js"
-    ]
-  },
-  "_96676335.js": {
-    "file": "assets/96676335.js"
-  },
-  "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js": {
-    "file": "assets/9f327196.js",
-    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "_b0814017.js",
-      "_1986dff3.js"
-    ]
-  },
-  "src/components/product/ProductGrid.client.jsx": {
-    "file": "assets/5202ea80.js",
-    "src": "src/components/product/ProductGrid.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "_92add5bc.js",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_44037397.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "src/components/cards/ProductCard.client.jsx",
-      "_96676335.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_bca3d137.js",
-      "_66b8d4b6.js",
-      "_ee25ea7a.js",
-      "_4d9ccbe2.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
-  "src/components/product/ProductDetail.client.jsx": {
-    "file": "assets/5646c352.js",
-    "src": "src/components/product/ProductDetail.client.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
-      "index.html",
-      "_951108c3.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_d918c967.js",
-      "_247fa190.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
-      "_d9f18c74.js",
-      "_11e343ea.js",
-      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
-      "_de1940ea.js",
-      "_40447271.js",
-      "_4d9ccbe2.js",
-      "_12a77e9c.js",
-      "_83ddd54b.js",
-      "_204a9453.js",
-      "_a69c1f44.js"
-    ],
-    "css": [
-      "assets/custom-font.05d48841.css"
-    ]
-  },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetrics.client.js": {
-    "file": "assets/69acf450.js",
+    "file": "assets/b6bb2f13.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetrics.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
       "_1986dff3.js",
-      "_555f9022.js",
+      "_5c3339a7.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_204a9453.js"
+      "_b453c200.js"
+    ]
+  },
+  "_1986dff3.js": {
+    "file": "assets/1986dff3.js"
+  },
+  "_5c3339a7.js": {
+    "file": "assets/5c3339a7.js",
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_b453c200.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetricsDebug.client.js": {
-    "file": "assets/520edfed.js",
+    "file": "assets/8d24877d.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/PerformanceMetrics/PerformanceMetricsDebug.client.js",
     "isDynamicEntry": true,
     "imports": [
@@ -838,7 +263,7 @@
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationClientProvider.client.js": {
-    "file": "assets/4451f396.js",
+    "file": "assets/5f2abd49.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationClientProvider.client.js",
     "isDynamicEntry": true,
     "imports": [
@@ -847,7 +272,7 @@
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/AnalyticsErrorBoundary.client.js": {
-    "file": "assets/b402a0d1.js",
+    "file": "assets/df7d53a4.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/AnalyticsErrorBoundary.client.js",
     "isDynamicEntry": true,
     "imports": [
@@ -855,27 +280,602 @@
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/Shopify/ShopifyAnalytics.client.js": {
-    "file": "assets/2c1fb3bd.js",
+    "file": "assets/4020b172.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/connectors/Shopify/ShopifyAnalytics.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html"
     ]
   },
+  "src/components/account/AccountActivateForm.client.jsx": {
+    "file": "assets/83722c30.js",
+    "src": "src/components/account/AccountActivateForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_4dcec775.js",
+      "_b453c200.js"
+    ]
+  },
+  "src/components/account/AccountAddressBook.client.jsx": {
+    "file": "assets/3f2eee1d.js",
+    "src": "src/components/account/AccountAddressBook.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_086354ff.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_2d42f978.js",
+      "_6bb1adec.js",
+      "_4dcec775.js",
+      "_b453c200.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_086354ff.js": {
+    "file": "assets/086354ff.js",
+    "imports": [
+      "_2d42f978.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_199713ed.js"
+    ]
+  },
+  "_6bb1adec.js": {
+    "file": "assets/6bb1adec.js",
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_2d42f978.js",
+      "_199713ed.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_25854493.js": {
+    "file": "assets/25854493.js",
+    "imports": [
+      "_2d42f978.js",
+      "_199713ed.js",
+      "index.html"
+    ]
+  },
+  "src/components/account/AccountCreateForm.client.jsx": {
+    "file": "assets/c323a08b.js",
+    "src": "src/components/account/AccountCreateForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_4dcec775.js",
+      "_199713ed.js",
+      "src/components/account/AccountLoginForm.client.jsx",
+      "_b453c200.js"
+    ]
+  },
+  "src/components/account/AccountLoginForm.client.jsx": {
+    "file": "assets/45b41f96.js",
+    "src": "src/components/account/AccountLoginForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_4dcec775.js",
+      "_b453c200.js"
+    ]
+  },
+  "src/components/account/AccountDetails.client.jsx": {
+    "file": "assets/7fd981b8.js",
+    "src": "src/components/account/AccountDetails.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_199713ed.js",
+      "_086354ff.js",
+      "_25854493.js",
+      "_2d42f978.js",
+      "_6bb1adec.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_631dadab.js",
+      "_7940f5e2.js",
+      "_92add5bc.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js": {
+    "file": "assets/e763dc29.js",
+    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/Seo/Seo.client.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_631dadab.js",
+      "_adcb9f3b.js",
+      "_7940f5e2.js",
+      "_92add5bc.js",
+      "_c96332aa.js",
+      "_b453c200.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js"
+    ]
+  },
+  "_631dadab.js": {
+    "file": "assets/631dadab.js",
+    "imports": [
+      "index.html",
+      "_c96332aa.js"
+    ]
+  },
+  "_92add5bc.js": {
+    "file": "assets/92add5bc.js"
+  },
+  "src/components/account/AccountOrderHistory.client.jsx": {
+    "file": "assets/a741efdd.js",
+    "src": "src/components/account/AccountOrderHistory.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_086354ff.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_d6978aec.js",
+      "_92add5bc.js",
+      "_2d42f978.js",
+      "_4dcec775.js",
+      "_b453c200.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_d6978aec.js": {
+    "file": "assets/d6978aec.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/account/AccountPasswordResetForm.client.jsx": {
+    "file": "assets/974cb077.js",
+    "src": "src/components/account/AccountPasswordResetForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_4dcec775.js",
+      "_b453c200.js"
+    ]
+  },
+  "src/components/account/AccountRecoverForm.client.jsx": {
+    "file": "assets/6a53f055.js",
+    "src": "src/components/account/AccountRecoverForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_199713ed.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_c96332aa.js",
+      "_b453c200.js",
+      "_4dcec775.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js"
+    ]
+  },
+  "src/components/cards/ProductCard.client.jsx": {
+    "file": "assets/5d84dd3e.js",
+    "src": "src/components/cards/ProductCard.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_2d42f978.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_d6978aec.js",
+      "_92add5bc.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "_4ff67a61.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_7940f5e2.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_4ff67a61.js": {
+    "file": "assets/4ff67a61.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_979bc475.js",
+      "_7940f5e2.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js"
+    ]
+  },
+  "_e6277090.js": {
+    "file": "assets/e6277090.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_b61e7bbe.js",
+      "_979bc475.js",
+      "_4ff67a61.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_086354ff.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_c5fd8ade.js",
+      "_2d42f978.js",
+      "src/components/cards/ProductCard.client.jsx",
+      "_d6978aec.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_b61e7bbe.js": {
+    "file": "assets/b61e7bbe.js",
+    "imports": [
+      "index.html",
+      "_a3fdab35.js",
+      "_5c3339a7.js",
+      "_f65a049c.js"
+    ]
+  },
+  "_f65a049c.js": {
+    "file": "assets/f65a049c.js",
+    "imports": [
+      "_1986dff3.js",
+      "index.html"
+    ]
+  },
+  "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js": {
+    "file": "assets/e16e67aa.js",
+    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/global/FooterMenu.client.jsx": {
+    "file": "assets/08cd9aa4.js",
+    "src": "src/components/global/FooterMenu.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "_f7e73c46.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_8edfef86.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "_f7e73c46.js": {
+    "file": "assets/f7e73c46.js",
+    "imports": [
+      "index.html",
+      "_2d42f978.js",
+      "_8edfef86.js"
+    ]
+  },
+  "src/components/global/Header.client.jsx": {
+    "file": "assets/d9ac78c1.js",
+    "src": "src/components/global/Header.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_631dadab.js",
+      "_b61e7bbe.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_c96332aa.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "_e6277090.js",
+      "_25854493.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_5c3339a7.js",
+      "_f65a049c.js",
+      "_1986dff3.js",
+      "_4ff67a61.js",
+      "_7940f5e2.js",
+      "_086354ff.js",
+      "_c5fd8ade.js",
+      "src/components/cards/ProductCard.client.jsx",
+      "_d6978aec.js",
+      "_92add5bc.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "src/components/product/ProductForm.client.jsx": {
+    "file": "assets/4257d6e1.js",
+    "src": "src/components/product/ProductForm.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_b61e7bbe.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/BaseButton/BaseButton.client.js",
+      "_4ff67a61.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_631dadab.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_086354ff.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_e72b705a.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_5c3339a7.js",
+      "_f65a049c.js",
+      "_1986dff3.js",
+      "_7940f5e2.js",
+      "_8edfef86.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js": {
+    "file": "assets/d6b691ca.js",
+    "src": "node_modules/@shopify/hydrogen/dist/esnext/hooks/useProductOptions/useProductOptions.client.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_979bc475.js"
+    ]
+  },
+  "src/components/product/ProductGallery.client.jsx": {
+    "file": "assets/8b2c4f1c.js",
+    "src": "src/components/product/ProductGallery.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_d6978aec.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_96676335.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_f65a049c.js",
+      "_1986dff3.js"
+    ]
+  },
+  "_96676335.js": {
+    "file": "assets/96676335.js"
+  },
+  "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js": {
+    "file": "assets/ae95418d.js",
+    "src": "node_modules/@shopify/hydrogen/dist/esnext/components/ModelViewer/ModelViewer.client.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_f65a049c.js",
+      "_1986dff3.js"
+    ]
+  },
+  "src/components/product/ProductGrid.client.jsx": {
+    "file": "assets/3aec8d89.js",
+    "src": "src/components/product/ProductGrid.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "_92add5bc.js",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_086354ff.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "src/components/cards/ProductCard.client.jsx",
+      "_96676335.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_d6978aec.js",
+      "_4ff67a61.js",
+      "_7940f5e2.js",
+      "_25854493.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "src/components/product/ProductDetail.client.jsx": {
+    "file": "assets/58051896.js",
+    "src": "src/components/product/ProductDetail.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@shopify/hydrogen/dist/esnext/components/Link/Link.client.js",
+      "index.html",
+      "_a3fdab35.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
+      "_c96332aa.js",
+      "_979bc475.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/components/LocalizationProvider/LocalizationContext.client.js",
+      "_4713b2c7.js",
+      "_adcb9f3b.js",
+      "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js",
+      "_2d42f978.js",
+      "_199713ed.js",
+      "_25854493.js",
+      "_f7e73c46.js",
+      "_4dcec775.js",
+      "_b453c200.js",
+      "_8edfef86.js"
+    ],
+    "css": [
+      "assets/custom-font.05d48841.css"
+    ]
+  },
+  "src/components/elements/LogoutButton.client.jsx": {
+    "file": "assets/18b85e0e.js",
+    "src": "src/components/elements/LogoutButton.client.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/Redirect/Redirect.client.js": {
-    "file": "assets/95f20060.js",
+    "file": "assets/537ef8cc.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/Redirect/Redirect.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_83ddd54b.js",
-      "_d918c967.js",
-      "_204a9453.js",
+      "_4dcec775.js",
+      "_c96332aa.js",
+      "_b453c200.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/useRouteParams/RouteParamsProvider.client.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/Analytics.client.js": {
-    "file": "assets/c93309fb.js",
+    "file": "assets/63f73fbd.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/Analytics/Analytics.client.js",
     "isDynamicEntry": true,
     "imports": [
@@ -883,72 +883,72 @@
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/DevTools.client.js": {
-    "file": "assets/5bd765a5.js",
+    "file": "assets/c4f049ea.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/DevTools.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Performance.client.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Settings.client.js",
-      "_d702b540.js"
+      "_75d43962.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Performance.client.js": {
-    "file": "assets/680ff260.js",
+    "file": "assets/693a51dd.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Performance.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_d702b540.js"
+      "_75d43962.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Settings.client.js": {
-    "file": "assets/c85f029b.js",
+    "file": "assets/61fcfa51.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/foundation/DevTools/components/Settings.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_d702b540.js"
+      "_75d43962.js"
     ]
   },
-  "_d702b540.js": {
-    "file": "assets/d702b540.js",
+  "_75d43962.js": {
+    "file": "assets/75d43962.js",
     "imports": [
       "index.html"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/components/CartProvider/CartProvider.client.js": {
-    "file": "assets/6f775280.js",
+    "file": "assets/cf4dcc98.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/components/CartProvider/CartProvider.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
       "_92add5bc.js",
-      "_737d4b55.js",
-      "_951108c3.js",
-      "_555f9022.js",
+      "_1d3221b6.js",
+      "_a3fdab35.js",
+      "_5c3339a7.js",
       "node_modules/@shopify/hydrogen/dist/esnext/foundation/ShopifyProvider/ShopifyProvider.client.js",
-      "_204a9453.js",
-      "_d918c967.js"
+      "_b453c200.js",
+      "_c96332aa.js"
     ]
   },
-  "_737d4b55.js": {
-    "file": "assets/737d4b55.js",
+  "_1d3221b6.js": {
+    "file": "assets/1d3221b6.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_555f9022.js",
-      "_d918c967.js",
+      "_5c3339a7.js",
+      "_c96332aa.js",
       "_92add5bc.js"
     ]
   },
   "node_modules/@shopify/hydrogen/dist/esnext/components/ProductOptionsProvider/ProductOptionsProvider.client.js": {
-    "file": "assets/61eb8045.js",
+    "file": "assets/99f8e0ea.js",
     "src": "node_modules/@shopify/hydrogen/dist/esnext/components/ProductOptionsProvider/ProductOptionsProvider.client.js",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_247fa190.js",
+      "_979bc475.js",
       "_92add5bc.js"
     ]
   }
