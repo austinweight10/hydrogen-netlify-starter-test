@@ -1,4 +1,4 @@
-import {useRef} from 'react';
+import {useRef, useEffect} from 'react';
 import {useScroll} from 'react-use';
 import {
   useCart,
@@ -32,43 +32,43 @@ export function CartDetails({layout, onClose}) {
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.VIEWED_PRODUCT, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.ADD_TO_CART, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.REMOVE_FROM_CART, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.UPDATE_CART, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.DISCOUNT_CODE_UPDATED, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
     ClientAnalytics.publish(eventNames.PERFORMANCE, {
       // eslint-disable-next-line prettier/prettier
         testData: "this is a test",
         // eslint-disable-next-line prettier/prettier
         creative_slot: "featured_app_1",
-    })
+    });
   })
 
 
